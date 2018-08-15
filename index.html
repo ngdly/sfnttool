@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>测试</title>
+    <style type="text/css">
+    @font-face {
+    font-family: "minikatong";
+    src: url('sub.eot'); /* IE9*/
+    src: url('sub.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    /*url('data:application/x-font-woff;charset=utf-8;base64,dsfsafsdaf...') format('woff'),*/
+    url('sub.woff') format('woff'),
+    url('sub.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('sub.svg') format('svg'); /* iOS 4.1- */
+}
+
+    body {
+        font-family: "minikatong";
+        font-size: 30px;
+    }
+    .readme {
+    	font-size:20px;font-family:"Microsoft YaHei","SimHei","SimSun";
+    	background:#ccc;border:1px solid #000;padding:10px;
+    }
+    </style>
+</head>
+
+<body>
+	<div class="readme">
+		执行命令：<br>
+		java -jar sfnttool.jar  -s '1234567890我要我要啊啊啊' MiNiKaTongJian.ttf sub.ttf
+	</div>
+    已提取的文字：1234567890我要我要啊啊啊<br>
+    未提取的文字：没有提取的哈哈哈
+</body>
+
+</html>
